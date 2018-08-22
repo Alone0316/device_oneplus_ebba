@@ -25,7 +25,15 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
-# NFC
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl.recovery \
+    bootctrl.lito.recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
+# Nfc
 PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
