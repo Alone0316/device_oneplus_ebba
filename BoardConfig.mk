@@ -55,5 +55,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ebba
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ebba
+
 # Inherit from the  proprietary version
 include vendor/oneplus/ebba/BoardConfig.mk
