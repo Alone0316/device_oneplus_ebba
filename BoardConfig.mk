@@ -44,6 +44,8 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONGIG := vendor/lito-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/ebba
+TARGET_KERNEL_CLANG_COMPILE := true
+
 
 # Platform
 TARGET_BOARD_PLATFORM := lito
