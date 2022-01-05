@@ -49,5 +49,11 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/ebba
 TARGET_BOARD_PLATFORM := lito
 BOARD_USES_QCOM_HARDWARE := true
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
+
 # Inherit from the  proprietary version
 include vendor/oneplus/ebba/BoardConfig.mk
