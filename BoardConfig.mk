@@ -45,5 +45,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONGIG := vendor/lito-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/ebba
 
+# Platform
+TARGET_BOARD_PLATFORM := lito
+BOARD_USES_QCOM_HARDWARE := true
+
 # Inherit from the  proprietary version
 include vendor/oneplus/ebba/BoardConfig.mk
