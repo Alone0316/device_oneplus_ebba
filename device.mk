@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Shipping Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Inherit from vendor blobs
