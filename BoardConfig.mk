@@ -60,4 +60,4 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ebba
 TARGET_RECOVERY_DEVICE_MODULES := libinit_ebba
 
 # Inherit from the  proprietary version
-include vendor/oneplus/ebba/BoardConfig.mk
+include vendor/oneplus/ebba/BoardConfigVendor.mk

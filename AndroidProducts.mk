@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILS := \
+PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_ebba.mk
 
 COMMON_LUNCH_CHOICES := \

@@ -30,5 +30,5 @@ PRODUCT_PACKAGES += \
 
 # Shipping
 PRODUCT_SHIPPING_API_LEVEL := 30
-# Inherit from vendor blobs
-$(call inherit -product, vendor/oneplus/ebba/ebba-vendor.mk)
+
+include vendor/oneplus/ebba/ebba-vendor.mk
