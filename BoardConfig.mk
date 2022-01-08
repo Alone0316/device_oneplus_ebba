@@ -49,6 +49,9 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/ebba
 TARGET_BOARD_PLATFORM := lito
 BOARD_USES_QCOM_HARDWARE := true
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 10200547328
+
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
