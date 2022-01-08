@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     com.android.nfc_extras
 
+# Omx
+PRODUCT_PACKAGES += \
+    libOmxVenc
+
 # Shipping
 PRODUCT_SHIPPING_API_LEVEL := 30
 
