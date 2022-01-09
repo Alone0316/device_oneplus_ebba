@@ -16,6 +16,10 @@ PRODUCT_AAPT_REF_CONFIG := xhdpi
 TARGET_SCREEN_HIEGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
