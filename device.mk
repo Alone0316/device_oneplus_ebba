@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libOmxVenc
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Shipping
 PRODUCT_SHIPPING_API_LEVEL := 30
 

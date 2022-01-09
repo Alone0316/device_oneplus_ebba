@@ -74,6 +74,7 @@ TARGET_USES_MKE2FS := true
 
 # Partitions - Recovery
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 104857600
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Partitions - Product
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
